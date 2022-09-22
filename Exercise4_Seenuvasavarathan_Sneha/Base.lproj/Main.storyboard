@@ -16,77 +16,138 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0_HOD_text" translatesAutoresizingMaskIntoConstraints="NO" id="k2I-ga-Zgr">
-                                <rect key="frame" x="20" y="36" width="374" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFd-Ju-LBb">
-                                <rect key="frame" x="73" y="189" width="86" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="26"/>
-                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIe-YU-3Rm">
-                                <rect key="frame" x="245" y="189" width="88" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="26"/>
-                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0_HOD_logo" translatesAutoresizingMaskIntoConstraints="NO" id="LOQ-c7-Vhe">
-                                <rect key="frame" x="50" y="236" width="133" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0_HOD_logo" translatesAutoresizingMaskIntoConstraints="NO" id="LIn-kY-ds9">
-                                <rect key="frame" x="222" y="236" width="135" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plq-xY-ggL">
-                                <rect key="frame" x="247" y="549" width="56" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="26"/>
-                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Restart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jl2-Mb-Txk">
-                                <rect key="frame" x="94" y="549" width="78" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="26"/>
-                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMz-Vg-e40">
-                                <rect key="frame" x="87" y="596" width="96" height="96"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="0_refresh_arrows"/>
-                                <connections>
-                                    <action selector="restart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CC7-3G-4HS"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0M-5Q-1Vf">
-                                <rect key="frame" x="222" y="596" width="92" height="88"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="Button" image="0_crossing-swords"/>
-                                <connections>
-                                    <action selector="fight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HfB-rF-CdM"/>
-                                </connections>
-                            </button>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Prepare for the battle!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ou3-hU-jxN">
-                                <rect key="frame" x="72" y="403" width="270" height="90"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="23"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="95" translatesAutoresizingMaskIntoConstraints="NO" id="SPb-vn-ell">
+                                <rect key="frame" x="32" y="74" width="350" height="719"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="0rS-p6-A48">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="287"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0_HOD_text" translatesAutoresizingMaskIntoConstraints="NO" id="k2I-ga-Zgr">
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="92d-E5-W9m"/>
+                                                    <constraint firstAttribute="width" constant="350" id="xwK-cv-WXL"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="kgU-ot-ldf">
+                                                <rect key="frame" x="14" y="90" width="322" height="197"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="h39-fJ-Z8l" userLabel="Player1View">
+                                                        <rect key="frame" x="0.0" y="0.0" width="150" height="197"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AFd-Ju-LBb">
+                                                                <rect key="frame" x="32.5" y="0.0" width="85.5" height="31"/>
+                                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="26"/>
+                                                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0_HOD_logo" translatesAutoresizingMaskIntoConstraints="NO" id="LOQ-c7-Vhe">
+                                                                <rect key="frame" x="0.0" y="47" width="150" height="150"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="150" id="6AS-vr-Kuz"/>
+                                                                    <constraint firstAttribute="width" constant="150" id="wZZ-bO-Ik6"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="ygL-Ru-5wa" userLabel="Player2View">
+                                                        <rect key="frame" x="172" y="0.0" width="150" height="197"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oIe-YU-3Rm">
+                                                                <rect key="frame" x="31.5" y="0.0" width="87.5" height="31"/>
+                                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="26"/>
+                                                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0_HOD_logo" translatesAutoresizingMaskIntoConstraints="NO" id="LIn-kY-ds9">
+                                                                <rect key="frame" x="0.0" y="47" width="150" height="150"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="150" id="B9v-0l-rtU"/>
+                                                                    <constraint firstAttribute="height" constant="150" id="S5G-NK-1zn"/>
+                                                                </constraints>
+                                                            </imageView>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="72F-qE-aQn">
+                                        <rect key="frame" x="32.5" y="382" width="285" height="337"/>
+                                        <subviews>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" text="Prepare for the battle!" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="Ou3-hU-jxN">
+                                                <rect key="frame" x="0.0" y="0.0" width="285" height="120"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="23"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="0dc-j6-AkN">
+                                                <rect key="frame" x="0.0" y="150" width="285" height="187"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="S0J-sv-ajQ">
+                                                        <rect key="frame" x="0.0" y="0.0" width="140" height="187"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Restart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jl2-Mb-Txk">
+                                                                <rect key="frame" x="0.0" y="0.0" width="140" height="31"/>
+                                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="26"/>
+                                                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WMz-Vg-e40">
+                                                                <rect key="frame" x="0.0" y="47" width="140" height="140"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="140" id="ZIU-Uv-liq"/>
+                                                                    <constraint firstAttribute="height" constant="140" id="viD-RQ-uPr"/>
+                                                                </constraints>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Button" image="0_refresh_arrows"/>
+                                                                <connections>
+                                                                    <action selector="restart:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CC7-3G-4HS"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="2vy-C3-c3t">
+                                                        <rect key="frame" x="145" y="0.0" width="140" height="187"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fight" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="plq-xY-ggL">
+                                                                <rect key="frame" x="42" y="0.0" width="56" height="31"/>
+                                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="26"/>
+                                                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C0M-5Q-1Vf">
+                                                                <rect key="frame" x="0.0" y="47" width="140" height="140"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="140" id="IVU-G2-2Qr"/>
+                                                                    <constraint firstAttribute="width" constant="140" id="dYE-Xh-qC6"/>
+                                                                </constraints>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Button" image="0_crossing-swords"/>
+                                                                <connections>
+                                                                    <action selector="fight:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HfB-rF-CdM"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="SPb-vn-ell" secondAttribute="bottom" constant="20" id="jlt-eM-MuV"/>
+                            <constraint firstItem="SPb-vn-ell" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sbU-jF-Jdc"/>
+                            <constraint firstItem="SPb-vn-ell" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="30" id="tcA-i7-gkp"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Game" id="6UL-Ca-4sc"/>
+                    <tabBarItem key="tabBarItem" title="Game" image="0_fire_off" landscapeImage="0_fire_off" selectedImage="0_fire_off" id="6UL-Ca-4sc"/>
                     <connections>
                         <outlet property="dragon1" destination="LOQ-c7-Vhe" id="1fY-gY-EgG"/>
                         <outlet property="gragon2" destination="LIn-kY-ds9" id="Rfq-81-kkM"/>
@@ -105,53 +166,109 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0_HOD_text" translatesAutoresizingMaskIntoConstraints="NO" id="7hz-Lf-JZe">
-                                <rect key="frame" x="20" y="32" width="374" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybf-78-vYw">
-                                <rect key="frame" x="143" y="193" width="128" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="39"/>
-                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7z-WJ-DP1">
-                                <rect key="frame" x="143" y="467" width="131" height="47"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="39"/>
-                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="2GG-z3-rba">
-                                <rect key="frame" x="20" y="282" width="133" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="Nho-NR-JjR">
-                                <rect key="frame" x="128" y="282" width="133" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="ydp-0b-3Ai">
-                                <rect key="frame" x="238" y="282" width="133" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="FcR-Ja-JCf">
-                                <rect key="frame" x="31" y="552" width="133" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="KGE-qB-Yp9">
-                                <rect key="frame" x="138" y="552" width="133" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="iaA-tg-5iy">
-                                <rect key="frame" x="247" y="552" width="133" height="107"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Hto-8n-Umy">
+                                <rect key="frame" x="32" y="74" width="350" height="50"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0_HOD_text" translatesAutoresizingMaskIntoConstraints="NO" id="7hz-Lf-JZe">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="50"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="Odj-Rs-kKI"/>
+                                    <constraint firstAttribute="height" constant="50" id="sVG-8a-iao"/>
+                                </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="75" translatesAutoresizingMaskIntoConstraints="NO" id="k41-mm-IE0">
+                                <rect key="frame" x="37" y="154" width="340" height="468"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="5vX-DI-mHd">
+                                        <rect key="frame" x="0.0" y="0.0" width="340" height="198.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ybf-78-vYw">
+                                                <rect key="frame" x="106" y="0.0" width="128" height="46.5"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="39"/>
+                                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="tDF-N4-0VW">
+                                                <rect key="frame" x="0.0" y="88.5" width="340" height="110"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="0_HOD_logo" translatesAutoresizingMaskIntoConstraints="NO" id="2GG-z3-rba">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="110" id="aru-Ch-H3H"/>
+                                                            <constraint firstAttribute="width" constant="110" id="kdh-Nv-w6S"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="Nho-NR-JjR">
+                                                        <rect key="frame" x="115" y="0.0" width="110" height="110"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="110" id="7al-DP-9wP"/>
+                                                            <constraint firstAttribute="width" constant="110" id="SJ6-3w-fV5"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="ydp-0b-3Ai">
+                                                        <rect key="frame" x="230" y="0.0" width="110" height="110"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="jfW-43-UbQ"/>
+                                                            <constraint firstAttribute="height" constant="110" id="ymx-96-Jiw"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="U0y-jQ-WJR">
+                                        <rect key="frame" x="0.0" y="273.5" width="340" height="194.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Player 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7z-WJ-DP1">
+                                                <rect key="frame" x="104.5" y="0.0" width="131" height="46.5"/>
+                                                <fontDescription key="fontDescription" name="AcademyEngravedLetPlain" family="Academy Engraved LET" pointSize="39"/>
+                                                <color key="textColor" red="0.1647058874" green="0.1019607931" blue="0.078431375319999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="o2R-XY-96F">
+                                                <rect key="frame" x="0.0" y="84.5" width="340" height="110"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="FcR-Ja-JCf">
+                                                        <rect key="frame" x="0.0" y="0.0" width="110" height="110"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="ml7-c9-fbF"/>
+                                                            <constraint firstAttribute="height" constant="110" id="pv3-HO-fhM"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="KGE-qB-Yp9">
+                                                        <rect key="frame" x="115" y="0.0" width="110" height="110"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="H2W-PG-x2C"/>
+                                                            <constraint firstAttribute="height" constant="110" id="L6K-YZ-qft"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="hod-transperant" translatesAutoresizingMaskIntoConstraints="NO" id="iaA-tg-5iy">
+                                                        <rect key="frame" x="230" y="0.0" width="110" height="110"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="110" id="WfL-Pm-JIu"/>
+                                                            <constraint firstAttribute="height" constant="110" id="a30-AN-hzw"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <variation key="heightClass=compact-widthClass=regular" axis="horizontal"/>
+                            </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="huL-mh-NmD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Hto-8n-Umy" firstAttribute="top" secondItem="huL-mh-NmD" secondAttribute="top" constant="30" id="AMy-b1-hOC"/>
+                            <constraint firstItem="k41-mm-IE0" firstAttribute="centerX" secondItem="tVP-HY-qwu" secondAttribute="centerX" id="Ohu-lh-IS5"/>
+                            <constraint firstItem="Hto-8n-Umy" firstAttribute="centerX" secondItem="tVP-HY-qwu" secondAttribute="centerX" id="kuA-YO-AVX"/>
+                            <constraint firstItem="k41-mm-IE0" firstAttribute="top" secondItem="Hto-8n-Umy" secondAttribute="bottom" constant="30" id="qBB-ut-cxo"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Score" id="qCt-ja-QHX"/>
+                    <tabBarItem key="tabBarItem" title="Score" image="0_score_off" landscapeImage="0_score_off" id="qCt-ja-QHX"/>
                     <connections>
                         <outlet property="player11" destination="2GG-z3-rba" id="PJU-ug-Gwn"/>
                         <outlet property="player12" destination="Nho-NR-JjR" id="zm1-4r-asE"/>
@@ -188,7 +305,9 @@
         <image name="0_HOD_logo" width="1250" height="1250"/>
         <image name="0_HOD_text" width="2054" height="300"/>
         <image name="0_crossing-swords" width="200" height="200"/>
+        <image name="0_fire_off" width="43" height="43"/>
         <image name="0_refresh_arrows" width="256" height="256"/>
+        <image name="0_score_off" width="43" height="43"/>
         <image name="hod-transperant" width="863" height="867"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

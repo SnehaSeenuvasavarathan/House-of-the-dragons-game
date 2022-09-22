@@ -46,10 +46,10 @@ class ViewController: UIViewController {
             resultText.text = "\(winner) is stronger.\nPlayer 2 wins the round!"
         }
         if player1Score == 3{
-            resultText.text = "Player 1 won!(\(player1Score)-\(player2Score)).\nRestart the game."
+            resultText.text = "Player 1 won! (\(player1Score)-\(player2Score)) .\nRestart the game."
         }
         else if player2Score == 3{
-            resultText.text = "Player 2 won!(\(player1Score)-\(player2Score)).\nRestart the game."
+            resultText.text = "Player 2 won! (\(player1Score)-\(player2Score)) .\nRestart the game."
         }
         }
     }
